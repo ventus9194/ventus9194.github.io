@@ -1,0 +1,34 @@
+body {
+  background: #475cd1;
+  color: #be2525;
+  border: solid 1px #be2525;
+  margin-left: 81rem;
+}
+body main {
+  background: rgba(71,92,209,0.9);
+  background: #8c8c8c;
+  background: #a3ade8;
+  background: #232e68;
+  background: #b8a32e;
+  background: #d1bc47;
+  background: #6a74af;
+  margin-top: 10px;
+  margin-top: 5px;
+  margin-top: 5%;
+  margin-top: 4.2px;
+  margin-left: 81rem;
+  margin: 10px 100px 20px 30px;
+  color: #475cd1;
+  border: solid 1px #475cd1;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  zoom: 1;
+}
+body main:after,
+body main:before {
+  content: '';
+  display: table;
+}
+body main:after {
+  clear: both;
+}

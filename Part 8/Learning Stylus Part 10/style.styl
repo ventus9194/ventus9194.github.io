@@ -1,0 +1,57 @@
+@import 'nib'
+@import 'styl/*'
+'''
+RUPTURE
+github.com/jenius/rupture
+'''
+reset-html5()
+normalize-base()
+normalize-html5()
+
+add(a, b, c = a)
+    a + b + c
+
+marg(a, b)
+    return a a*10 a* 2 a+b
+
+rupture.scale = 0 400px 600px 800px 1050px 1800px
+    
+rupture.scale-names = 'xs' 's' 'm' 'l' 'xl' 'hd'
+
+body
+    background linear-gradient(top, white, black)
+    color red
+    fixed top left
+    absolute top left
+    fixed top 20px left 2%
+    border solid 1px @color
+    margin-left add(23rem, 35)
+    +at('m')
+        color red
+    +below('xl')
+        color blue
+    
+    main
+        background rgba(blue, 0.9)
+        background grayscale(blue)
+        background tint(blue, 50%)
+        background shade(blue, 50%)
+        background invert(blue)
+        background complement(blue)
+        background desaturate(blue, 50%)
+        margin-top abs(-10px)
+        margin-top ceil(4.6px)
+        margin-top ceil(4.6%)
+        margin-top unit(4.2%, 'px')
+        margin-left abs(@margin-left)
+        margin marg(10px, 20px)
+        color blue
+        border @color
+        border-radius 20px
+        clearfix()
+        transition(all 0.2s ease)
+        test(12)
+        a
+            overflow ellipsis
+            shadow-stroke(blue)
+        

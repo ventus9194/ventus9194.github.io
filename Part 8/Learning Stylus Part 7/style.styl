@@ -1,0 +1,34 @@
+@import 'styl/*'
+
+add(a, b, c = a)
+    a + b + c
+
+marg(a, b)
+    return a a*10 a* 2 a+b
+    
+body
+    background blue
+    color red
+    border solid 1px @color
+    margin-left add(23rem, 35)
+    main
+        background rgba(blue, 0.9)
+        background grayscale(blue)
+        background tint(blue, 50%)
+        background shade(blue, 50%)
+        background invert(blue)
+        background complement(blue)
+        background desaturate(blue, 50%)
+        margin-top abs(-10px)
+        margin-top ceil(4.6px)
+        margin-top ceil(4.6%)
+        margin-top unit(4.2%, 'px')
+        margin-left abs(@margin-left)
+        margin marg(10px, 20px)
+        color blue
+        border solid 1px @color
+        border-radius 20px
+        cf()
+        transition(all 0.2s ease)
+        test(12)
+        
