@@ -1,0 +1,23 @@
+<head>
+    <title>project</title>
+</head>
+
+<body>
+
+  {{> add_item}} <br>
+  
+  {{> list_items }}
+</body>
+
+<template name="add_item">
+    <input type="text" class="the_item">
+    <button class="submit">Submit</button>
+</template>
+
+<template name="list_items">
+    <ol>
+        {{#each all_items}}
+            <li>{{item}}</li>
+        {{/each}}
+    </ol>
+</template>
