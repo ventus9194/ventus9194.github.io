@@ -1,0 +1,71 @@
+$cloud-blue = #CAE5FF
+$teal-blue = #ACEDFF
+$soft-blue = #89BBFE
+$navy-blue = #6F8AB7
+$light-grey = #615D6C
+
+@font-face {
+    font-family: Docker;
+    src: url("fonts/Docker One.ttf");
+}
+@font-face {
+    font-family: Choplin;
+    src: url("fonts/Choplin-ExtraLight-DEMO.otf");
+}
+
+    
+html, body
+    margin 0
+    padding 0
+    background-color $cloud-blue
+    font-family Choplin
+
+.header
+    width 60%
+    height 3.5em
+    margin 1% auto 0 auto
+    background $light-grey
+    border 2px solid white
+
+.logo
+    border-right 2px solid white
+    float left
+    height 3.5em
+    width 5em
+
+.logo > h1
+    padding 11% 0 0 0
+    margin 0
+    text-align center
+    color white
+    
+ul
+    list-style-type none
+    margin 0
+    padding 0
+    overflow hidden   
+
+li
+    float right
+    vertical-align bottom
+    display block
+    margin 0.8em 2% 1% 2%
+
+a
+    border-bottom 2px solid white
+    text-decoration none
+    font-size 2vw
+    color white
+
+.wrap
+    width 100%
+    display inline-block
+
+.container
+    text-align center
+    padding 2%
+    margin 5% auto
+    width 85%
+    height 90%
+    background-color white
+    box-shadow: 5px 5px 5px #888888;

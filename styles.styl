@@ -1,0 +1,128 @@
+$cloud-blue = #CAE5FF
+$teal-blue = #ACEDFF
+$soft-blue = #89BBFE
+$navy-blue = #6F8AB7
+$light-grey = #615D6C
+
+@font-face {
+    font-family: Docker;
+    src: url("fonts/Docker One.ttf");
+}
+@font-face {
+    font-family: Choplin;
+    src: url("fonts/Choplin-ExtraLight-DEMO.otf");
+}
+
+    
+html, body
+    margin 0
+    padding 0
+    background-color $cloud-blue
+    font-family Choplin
+
+.header
+    width 60%
+    height 3.5em
+    margin 1% auto 0 auto
+    background $light-grey
+    border 2px solid white
+
+.logo
+    border-right 2px solid white
+    float left
+    height 3.5em
+    width 5em
+
+.logo > h1
+    padding 11% 0 0 0
+    margin 0
+    text-align center
+    color white
+    
+ul
+    list-style-type none
+    margin 0
+    padding 0
+    overflow hidden   
+
+li
+    float right
+    vertical-align bottom
+    display block
+    margin 0.8em 2% 1% 2%
+
+a
+    border-bottom 2px solid white
+    text-decoration none
+    font-size 2vw
+    color white
+
+.jumbo
+    margin auto
+    width 100%
+
+.body-jumbo
+    width 80%
+    margin 15% auto 0 auto
+    
+.body-jumbo > h1
+    font-family Docker
+    font-size 9vw
+    color white
+
+.content
+    width 100% 
+    height 60vw
+    margin 15% auto 0 auto
+    background-color $light-grey 
+    
+.info
+    width 90%
+    margin auto
+    padding 1%
+    
+.rec
+    margin auto
+    
+h1
+    text-align center
+    
+h1 > a
+    color black
+    font-size 5vw
+    
+.learning .rec
+    margin-top 2%
+    width 90%
+    height 70%
+    background url("img/html5css-logo.svg")
+    background-size cover
+    
+.work .rec
+    margin-top 2%
+    width 90%
+    height 70%
+    background url("img/CP Logo (svg2).svg")
+    background-size 100% 100%
+    background-repeat no-repeat
+
+.learning
+    padding 1%
+    width 47%
+    height 35vw
+    background-color white
+    display inline-block
+    
+.work
+    padding 1%
+    width 47%
+    height 35vw
+    background-color white
+    display inline-block
+   
+    
+.title > h1
+    color white
+    text-align center
+    font-size 6vw
+    padding-top 4%

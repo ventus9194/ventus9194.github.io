@@ -1,0 +1,106 @@
+@font-face {
+  font-family: Docker;
+  src: url("fonts/Docker One.ttf");
+}
+@font-face {
+  font-family: Choplin;
+  src: url("fonts/Choplin-ExtraLight-DEMO.otf");
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cae5ff;
+  font-family: Choplin;
+}
+.header {
+  width: 60%;
+  height: 3.5em;
+  margin: 1% auto 0 auto;
+  background: #615d6c;
+  border: 2px solid #fff;
+}
+.logo {
+  border-right: 2px solid #fff;
+  float: left;
+  height: 3.5em;
+  width: 5em;
+}
+.logo > h1 {
+  padding: 11% 0 0 0;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+  vertical-align: bottom;
+  display: block;
+  margin: 0.8em 2% 1% 2%;
+}
+a {
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+  font-size: 2vw;
+  color: #fff;
+}
+.wrap {
+  width: 100%;
+  display: inline-block;
+}
+.container {
+  text-align: center;
+  padding: 2%;
+  margin: 5% auto;
+  width: 85%;
+  height: 90%;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #888;
+}
+.title {
+  font-size: 2.2vw;
+  width: 57%;
+  margin: auto;
+}
+.stuff {
+  display: inline-block;
+  margin-bottom: 5%;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+.stuff > h1,
+.stuff > h2,
+.stuff > .circles {
+  display: block;
+}
+.circle {
+  width: 2vw;
+  height: 2vw;
+  display: inline-block;
+  margin-left: 5px;
+  border-radius: 100%;
+}
+.beg {
+  border: solid #acedff 2px;
+}
+.int {
+  border: solid #89bbfe 2px;
+}
+.adv {
+  border: solid #6f8ab7 2px;
+}
+.fill-beg {
+  background-color: #acedff;
+}
+.fill-int {
+  background-color: #89bbfe;
+}
